@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="jpa">
+		<class>jpa.EmGenCompra</class>
+		<class>jpa.EmGenCompraDetalle</class>
+		<class>jpa.EmGenCompraDetallePK</class>
+		<class>jpa.EmGenEmpresa</class>
+		<class>jpa.EmGenEmpresaSede</class>
+		<class>jpa.EmGenFormula</class>
+		<class>jpa.EmGenIngrediente</class>
+		<class>jpa.EmGenIngredientePK</class>
+		<class>jpa.EmGenInventarioMateriaPrima</class>
+		<class>jpa.EmGenMoje</class>
+		<class>jpa.EmGenProducto</class>
+		<class>jpa.EmGenProductoFinal</class>
+		<class>jpa.EmGenProveedor</class>
+		<class>jpa.EmGenProveedorTelefono</class>
+		<class>jpa.EmGenUnidadMedida</class>
+		<class>jpa.EmPersContrasena</class>
+		<class>jpa.EmPersCorreo</class>
+		<class>jpa.EmPersDireccion</class>
+		<class>jpa.EmPersEmpleado</class>
+		<class>jpa.EmPersPersona</class>
+		<class>jpa.EmPersRole</class>
+		<class>jpa.EmPersTelefono</class>
+		<class>jpa.EmPersTipoDocumento</class>
+		<class>jpa.EmPersTipoPersona</class>
+		<class>jpa.EmPersTipoTelefono</class>
+	</persistence-unit>
+</persistence>
